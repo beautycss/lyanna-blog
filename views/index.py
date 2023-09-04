@@ -8,7 +8,7 @@ from sanic import Blueprint, response
 from sanic.log import logger
 from sanic.response import HTTPResponse, redirect, text
 from sanic_oauth.providers import GithubClient as GithubClient_
-from werkzeug.contrib.atom import AtomFeed
+from feedwerk.atom import AtomFeed
 
 import config
 from config import OWNER, SITE_TITLE

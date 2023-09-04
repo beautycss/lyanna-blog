@@ -54,7 +54,7 @@ const formRules = useElement().formRules
 //form
 let formInline = reactive({
   username: 'admin',
-  password: 'admin123'
+  password: '123456'
 })
 let state = reactive({
   otherQuery: {},

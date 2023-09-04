@@ -13,8 +13,8 @@ class AttrDict(dict):
         self.__dict__ = self
 
 
-DB_URL = os.getenv('DB_URL', 'mysql://root:@localhost:3306/test?charset=utf8mb4')  # noqa
-REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379')
+DB_URL = os.getenv('DB_URL', 'mysql://root:123456@127.0.0.1:3306/test?charset=utf8mb4')  # noqa
+REDIS_URL = os.getenv('REDIS_URL', 'redis://127.0.0.1:6379')
 DEBUG = os.getenv('DEBUG', '').lower() in ('true', 'y', 'yes', '1')
 WTF_CSRF_SECRET_KEY = 123
 AUTH_LOGIN_ENDPOINT = 'index.login'

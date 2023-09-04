@@ -7,6 +7,7 @@ mako = SanicMako()
 
 
 async def init_db(create_db: bool = False) -> None:
+    print(DB_URL)
     await Tortoise.init(
         db_url=DB_URL,
         modules={'models': ['models']},

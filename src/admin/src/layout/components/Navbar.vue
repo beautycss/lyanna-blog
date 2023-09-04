@@ -26,7 +26,7 @@
             <a target="_blank" href="https://github.com/dongweiming/lyanna">
               <el-dropdown-item>Github</el-dropdown-item>
             </a>
-            <el-dropdown-item divided @click="loginOut">Login out</el-dropdown-item>
+            <el-dropdown-item divided @click="loginOut">Logout</el-dropdown-item>
           </el-dropdown-menu>
         </template>
       </el-dropdown>
